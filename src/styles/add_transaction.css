@@ -1,0 +1,42 @@
+.add-transaction {
+  margin-bottom: 2.5rem;
+}
+
+.add-transaction__title {
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.add-transaction__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-transaction__form > * {
+  margin: 0.3rem 0;
+}
+
+.add-transaction__input {
+  border: 1px solid #bbb;
+  outline: none;
+  font-size: inherit;
+  padding: 10px;
+  border-radius: 0.2em;
+}
+
+.add-transaction__input:focus {
+  border: 1px solid var(--green-color);
+}
+
+.add-transaction__form button {
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  font-size: inherit;
+  color: white;
+  background-color: var(--blue-light-color);
+}
+
+.add-transaction__form button:hover {
+  background-color: var(--blue-color);
+}

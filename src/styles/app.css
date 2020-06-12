@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import './balance_summary.css';
+@import './history_list.css';
+@import './history_item.css';
+@import './add_transaction.css';
+
+:root {
+  --box-shadow: 0 1px 3px 0 grey;
+
+  --red-color: #e74c3c;
+  --red-light-color: #c95549;
+  --blue-light-color: #9c88ff;
+  --blue-color: #917feb;
+  --green-color: #2ecc71;
+  --green-light-color: #49d383;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.expense-tracker {
+  min-width: 350px;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.expense-tracker__title {
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,53 @@
+.balance-summary {
+}
+
+.balance-summary__title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.balance-summary__total {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.balance-summary__income-expense-container {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  margin-bottom: 0;
+}
+
+.income-expense-item {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.income-expense-item:first-child {
+  border-right: 1px solid grey;
+}
+
+.income-expense-item__title,
+.income-expense-item__total {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.1rem 0;
+  text-transform: uppercase;
+}
+
+.income-expense-item__total {
+  font-size: 1.5rem;
+}
+
+.income-color {
+  color: var(--green-light-color);
+}
+
+.expense-color {
+  color: var(--red-light-color);
+}

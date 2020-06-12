@@ -1,0 +1,33 @@
+.history-item {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-right: 5px solid var(--green-light-color);
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-item:hover .history-item__delete-btn,
+.history-item__delete-btn:hover {
+  opacity: 1;
+}
+
+.history-item__delete-btn {
+  position: absolute;
+  border: none;
+  font-size: inherit;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--red-color);
+  right: 100%;
+  height: 60%;
+  opacity: 0;
+}
+
+.history-item.border-red {
+  border-right: 5px solid var(--red-light-color);
+}
